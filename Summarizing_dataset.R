@@ -55,7 +55,7 @@ stats = cbind(descr,stats)
   return(stats)
 }#End of function 
 
-a = descr_stats("AMSsurvey")
+
 
 
 
