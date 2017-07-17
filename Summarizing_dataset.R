@@ -37,7 +37,7 @@ descr_stats = function(data_name){
       numNAs_ind = sum(is.na(dat[,i]))
       
       #Create a row or column of ind 
-      stats_ind = c(sd,max,min,mean,perc25,perc75,numNAs)
+      stats_ind = c(sd_ind,max_ind,min_ind,mean_ind,perc25_ind,perc75_ind,numNAs_ind)
       stats_ind = as.data.frame(stats_ind)
       names(stats_ind)[1] = names(dat)[i]
       stats = cbind(stats,stats_ind)
@@ -55,7 +55,7 @@ stats = cbind(descr,stats)
   return(stats)
 }#End of function 
 
-
+# a = descr_stats("AMSsurvey")
 
 
 
