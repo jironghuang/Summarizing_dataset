@@ -15,4 +15,4 @@ Then you summarize using dpylr,
 
 But somehow you need to cbind them to produce a dataframe.
 
-If the number of columns are extradordinarily huge, I will thencome up with a more efficient function. 
+If the number of columns are extradordinarily huge, then I will come up with a more efficient function. 
